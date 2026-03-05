@@ -3,7 +3,8 @@ let quotes = [
     "The best way to predict the future is to invent it. - Alan Kay",
     "Code. Debug. Repeat. - Unknown",
     "Never stop learning. - Albert Einstein",
-    "Consistency beats talent. - Kevin Durant"
+    "Consistency beats talent. - Kevin Durant",
+    "You may become an example. -Pritam Yadav"
 ];
 
 function newQuote(){
@@ -11,3 +12,4 @@ function newQuote(){
 
     document.getElementById("Quote").innerText = quotes[randomIndex];
 }
+
